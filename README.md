@@ -6,7 +6,7 @@ A modern web application for finding and filtering doctors, built with Next.js a
 
 - Doctor listing with filters
 - Responsive design
-- SEO optimized
+- SEO optimised
 - RESTful API backend
 - MongoDB database
 
@@ -51,7 +51,11 @@ A modern web application for finding and filtering doctors, built with Next.js a
    PORT=5000
    MONGODB_URI=mongodb://localhost:27017/doctor-app
    ```
-4. Start the development server:
+4. Store Some Doctor info in the Database:
+   ```bash
+   npm run seed
+   ```
+5. Start the development server:
    ```bash
    npm run dev
    ```
