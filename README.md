@@ -1,3 +1,111 @@
+# Doctor Finder Application
+
+A modern web application for finding and filtering doctors, built with Next.js and Node.js.
+
+## Features
+
+- Doctor listing with filters
+- Responsive design
+- SEO optimized
+- RESTful API backend
+- MongoDB database
+
+## Tech Stack
+
+- Frontend: Next.js, TypeScript, Tailwind CSS
+- Backend: Node.js, Express, TypeScript
+- Database: MongoDB
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- MongoDB (local or Atlas)
+- npm or yarn
+
+## Setup Instructions
+
+### Frontend Setup
+
+1. Navigate to the project root directory
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Backend Setup
+
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file in the backend directory with the following content:
+   ```
+   PORT=5000
+   MONGODB_URI=mongodb://localhost:27017/doctor-app
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## API Endpoints
+
+### Add Doctor
+- **POST** `/api/doctors/add`
+- Request body:
+  ```json
+  {
+    "name": "string",
+    "specialization": "string",
+    "experience": "number",
+    "rating": "number",
+    "location": "string",
+    "availability": "string",
+    "consultationFee": "number",
+    "languages": ["string"],
+    "education": ["string"],
+    "imageUrl": "string",
+    "description": "string"
+  }
+  ```
+
+### List Doctors with Filters
+- **GET** `/api/doctors/list`
+- Query parameters:
+  - `page`: Page number (default: 1)
+  - `limit`: Items per page (default: 10)
+  - `specialization`: Filter by specialization
+  - `location`: Filter by location
+  - `minRating`: Minimum rating
+  - `maxFee`: Maximum consultation fee
+  - `sortBy`: Field to sort by (rating, consultationFee, experience)
+  - `sortOrder`: Sort order (asc, desc)
+
+## Project Structure
+
+```
+.
+├── src/                    # Frontend source code
+│   ├── app/               # Next.js app directory
+│   ├── components/        # React components
+│   └── styles/           # Global styles
+├── backend/               # Backend source code
+│   ├── src/              # Backend source files
+│   │   ├── models/       # MongoDB models
+│   │   ├── routes/       # API routes
+│   │   └── server.ts     # Express server
+│   └── package.json      # Backend dependencies
+└── package.json          # Frontend dependencies
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
