@@ -26,7 +26,10 @@ A modern web application for finding and filtering doctors, built with Next.js a
 
 ### Frontend Setup
 
-1. Navigate to the project root directory
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
 2. Install dependencies:
    ```bash
    npm install
@@ -46,12 +49,7 @@ A modern web application for finding and filtering doctors, built with Next.js a
    ```bash
    npm install
    ```
-3. Create a `.env` file in the backend directory with the following content:
-   ```
-   PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/doctor-app
-   ```
-4. Start the development server:
+3. Start the development server:
    ```bash
    npm run dev
    ```
@@ -93,17 +91,20 @@ A modern web application for finding and filtering doctors, built with Next.js a
 
 ```
 .
-├── src/                    # Frontend source code
-│   ├── app/               # Next.js app directory
-│   ├── components/        # React components
-│   └── styles/           # Global styles
-├── backend/               # Backend source code
-│   ├── src/              # Backend source files
-│   │   ├── models/       # MongoDB models
-│   │   ├── routes/       # API routes
-│   │   └── server.ts     # Express server
-│   └── package.json      # Backend dependencies
-└── package.json          # Frontend dependencies
+├── frontend/              # Frontend application
+│   ├── src/              # Frontend source code
+│   │   ├── app/         # Next.js app directory
+│   │   ├── components/  # React components
+│   │   └── styles/     # Global styles
+│   ├── public/         # Static files
+│   └── package.json    # Frontend dependencies
+├── backend/             # Backend source code
+│   ├── src/            # Backend source files
+│   │   ├── models/     # MongoDB models
+│   │   ├── routes/     # API routes
+│   │   └── server.ts   # Express server
+│   └── package.json    # Backend dependencies
+└── README.md           # Project documentation
 ```
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
