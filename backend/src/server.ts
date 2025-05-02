@@ -11,7 +11,7 @@ interface Config {
 
 const config: Config = {
   port: 5000,
-  mongodbUri: 'mongodb://localhost:27017/doctor-app'
+  mongodbUri: 'mongodb+srv://pathway2003:k6qCgZ6RqjSQqtP1@cluster0.xgr2mdb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 };
 
 const app = express();
