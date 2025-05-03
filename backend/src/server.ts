@@ -39,9 +39,8 @@ const connectDB = async () => {
 // Routes
 app.use('/api/doctors', doctorRoutes);
 
-<<<<<<< HEAD
 // Health check endpoint
-app.get('/api/health', (req, res) => {
+app.get('/api/health', (req: express.Request, res: express.Response) => {
   res.status(200).json({ status: 'ok' });
 });
 
@@ -61,9 +60,4 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // Export for Vercel
-export default app; 
-=======
-app.listen(config.port, () => {
-  console.log(`Server is running on port ${config.port}`);
-}); 
->>>>>>> c0c1e845a5a4d68a5850a4e8e43828844affdc35
+export default app;
