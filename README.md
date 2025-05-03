@@ -49,9 +49,6 @@ A modern web application for finding and filtering doctors, built with Next.js a
    ```bash
    npm install
    ```
-<<<<<<< HEAD
-3. Start the development server:
-=======
 3. Create a `.env` file in the backend directory with the following content:
    ```
    PORT=5000
@@ -62,7 +59,6 @@ A modern web application for finding and filtering doctors, built with Next.js a
    npm run seed
    ```
 5. Start the development server:
->>>>>>> d4ece95d903426a7b30552d6084305516545ecd4
    ```bash
    npm run dev
    ```
@@ -153,6 +149,43 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+### Frontend Deployment
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+### Backend Deployment
+To deploy the backend on Vercel:
+
+1. Push your code to a GitHub repository
+2. Go to [Vercel Dashboard](https://vercel.com/dashboard)
+3. Click "New Project"
+4. Import your repository
+5. Configure the project:
+   - Framework Preset: Node.js
+   - Root Directory: backend
+   - Build Command: npm run vercel-build
+   - Output Directory: dist
+   - Install Command: npm install
+6. Add Environment Variables:
+   - MONGODB_URI: Your MongoDB connection string
+   - NODE_ENV: production
+   - FRONTEND_URL: Your frontend URL (e.g., https://your-frontend.vercel.app)
+7. Click "Deploy"
+
+### Environment Variables
+For local development, create a `.env` file in the backend directory with:
+```
+MONGODB_URI=mongodb://localhost:27017/doctor-app
+PORT=5000
+FRONTEND_URL=http://localhost:3000
+NODE_ENV=development
+```
+
+For production, set these variables in your Vercel project settings.
+
+### Important Notes
+- Make sure your MongoDB database is accessible from Vercel's servers
+- Update the CORS configuration in `server.ts` with your frontend's production URL
+- The backend will be deployed as serverless functions
+- Health check endpoint is available at `/api/health`
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
