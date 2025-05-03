@@ -10,13 +10,8 @@ interface Config {
 }
 
 const config: Config = {
-<<<<<<< HEAD
   port: process.env.PORT ? parseInt(process.env.PORT) : 5000,
   mongodbUri: process.env.MONGODB_URI || 'mongodb://localhost:27017/doctor-app'
-=======
-  port: 5000,
-  mongodbUri: 'mongodb+srv://pathway2003:k6qCgZ6RqjSQqtP1@cluster0.xgr2mdb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
->>>>>>> c0c1e845a5a4d68a5850a4e8e43828844affdc35
 };
 
 const app = express();
