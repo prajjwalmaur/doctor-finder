@@ -4,6 +4,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+const MONGODB_URI = 'mongodb+srv://pathway2003:prajjwal@cluster0.xgr2mdb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+
 const doctors = [
   {
     name: "Dr. Sarah Yadav",
@@ -88,7 +90,7 @@ const doctors = [
 
 async function seedDatabase() {
   try {
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/doctor-app');
+    await mongoose.connect(MONGODB_URI);
     console.log('Connected to MongoDB');
 
     // Clear existing doctors
