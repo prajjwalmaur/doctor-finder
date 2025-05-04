@@ -42,7 +42,7 @@ export default function Home() {
         if (value) queryParams.append(key, value.toString());
       });
 
-      const response = await fetch(`http://localhost:5000/api/doctors/list?${queryParams}`);
+      const response = await fetch(`https://doctor-finder-api.vercel.app/api/doctors/list?${queryParams}`);
       const data = await response.json();
       setDoctors(data.doctors);
       setTotalPages(data.totalPages);
