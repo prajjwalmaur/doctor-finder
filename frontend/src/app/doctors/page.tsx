@@ -11,14 +11,25 @@ export default function DoctorsPage() {
   useEffect(() => {
     const fetchDoctors = async () => {
       try {
-        const response = await fetch('https://doctor-finder-api.vercel.app/api/doctors/list?sortBy=rating&sortOrder=desc&page=1&limit=10');
+        const response = await fetch('https://doctor-finder-api.vercel.app/api/doctors/list?sortBy=rating&sortOrder=desc&page=1&limit=10', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+          },
+          credentials: 'include',
+        });
+
         if (!response.ok) {
-          throw new Error('Failed to fetch doctors');
+          const errorData = await response.json();
+          throw new Error(errorData.error || 'Failed to fetch doctors');
         }
+
         const data = await response.json();
-        setDoctors(data);
+        setDoctors(data.doctors || []);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'An error occurred');
+        console.error('Error fetching doctors:', err);
+        setError(err instanceof Error ? err.message : 'An error occurred while fetching doctors');
       } finally {
         setLoading(false);
       }
@@ -27,8 +38,8 @@ export default function DoctorsPage() {
     fetchDoctors();
   }, []);
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error}</div>;
+  if (loading) return <div className="flex justify-center items-center min-h-screen">Loading...</div>;
+  if (error) return <div className="text-red-500 text-center p-4">Error: {error}</div>;
 
   return (
     <div className="container mx-auto px-4 py-8">
