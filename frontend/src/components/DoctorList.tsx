@@ -1,14 +1,4 @@
-interface Doctor {
-  _id: string;
-  name: string;
-  specialization: string;
-  experience: number;
-  rating: number;
-  location: string;
-  availability: string;
-  consultationFee: number;
-  imageUrl?: string;
-}
+import { Doctor } from '@/types/doctor';
 
 interface DoctorListProps {
   doctors: Doctor[];

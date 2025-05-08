@@ -1,8 +1,15 @@
 export interface Doctor {
-  _id: string;
+  _id?: string;
   name: string;
-  specialty: string;
+  specialization: string;
+  experience: number;
   rating: number;
   location: string;
+  availability: string;
+  consultationFee: number;
+  imageUrl?: string;
+  languages?: string[];
+  education?: string[];
+  description?: string;
   // Add other doctor properties as needed
 } 

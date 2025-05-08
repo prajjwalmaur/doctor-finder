@@ -127,19 +127,19 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                         className: "w-full h-full object-cover"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/DoctorList.tsx",
-                                        lineNumber: 29,
+                                        lineNumber: 19,
                                         columnNumber: 19
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "w-full h-full flex items-center justify-center text-gray-400",
                                         children: "No Image"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/DoctorList.tsx",
-                                        lineNumber: 35,
+                                        lineNumber: 25,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/DoctorList.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 17,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -155,7 +155,7 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                                             children: doctor.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/DoctorList.tsx",
-                                                            lineNumber: 43,
+                                                            lineNumber: 33,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -163,7 +163,7 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                                             children: doctor.specialization
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/DoctorList.tsx",
-                                                            lineNumber: 44,
+                                                            lineNumber: 34,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -171,13 +171,13 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                                             children: doctor.location
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/DoctorList.tsx",
-                                                            lineNumber: 45,
+                                                            lineNumber: 35,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/DoctorList.tsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 32,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -191,7 +191,7 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/DoctorList.tsx",
-                                                            lineNumber: 48,
+                                                            lineNumber: 38,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -199,19 +199,19 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                                             children: "Consultation Fee"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/DoctorList.tsx",
-                                                            lineNumber: 51,
+                                                            lineNumber: 41,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/DoctorList.tsx",
-                                                    lineNumber: 47,
+                                                    lineNumber: 37,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/DoctorList.tsx",
-                                            lineNumber: 41,
+                                            lineNumber: 31,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -225,7 +225,7 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                                             children: "★"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/DoctorList.tsx",
-                                                            lineNumber: 56,
+                                                            lineNumber: 46,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -233,13 +233,13 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                                             children: doctor.rating
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/DoctorList.tsx",
-                                                            lineNumber: 57,
+                                                            lineNumber: 47,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/DoctorList.tsx",
-                                                    lineNumber: 55,
+                                                    lineNumber: 45,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -251,12 +251,12 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/DoctorList.tsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 50,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/DoctorList.tsx",
-                                                    lineNumber: 59,
+                                                    lineNumber: 49,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -265,40 +265,40 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                                                         children: doctor.availability
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/DoctorList.tsx",
-                                                        lineNumber: 63,
+                                                        lineNumber: 53,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/DoctorList.tsx",
-                                                    lineNumber: 62,
+                                                    lineNumber: 52,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/DoctorList.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 44,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/DoctorList.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 30,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/DoctorList.tsx",
-                            lineNumber: 26,
+                            lineNumber: 16,
                             columnNumber: 13
                         }, this)
                     }, doctor._id, false, {
                         fileName: "[project]/src/components/DoctorList.tsx",
-                        lineNumber: 25,
+                        lineNumber: 15,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/DoctorList.tsx",
-                lineNumber: 23,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             totalPages > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -313,7 +313,7 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                             children: "Previous"
                         }, void 0, false, {
                             fileName: "[project]/src/components/DoctorList.tsx",
-                            lineNumber: 75,
+                            lineNumber: 65,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -326,7 +326,7 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/DoctorList.tsx",
-                            lineNumber: 82,
+                            lineNumber: 72,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -336,24 +336,24 @@ function DoctorList({ doctors, currentPage, totalPages, onPageChange }) {
                             children: "Next"
                         }, void 0, false, {
                             fileName: "[project]/src/components/DoctorList.tsx",
-                            lineNumber: 85,
+                            lineNumber: 75,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/DoctorList.tsx",
-                    lineNumber: 74,
+                    lineNumber: 64,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/DoctorList.tsx",
-                lineNumber: 73,
+                lineNumber: 63,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/DoctorList.tsx",
-        lineNumber: 22,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
@@ -742,9 +742,125 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+const fallbackDoctors = [
+    {
+        name: "Dr. Sarah Yadav",
+        specialization: "General Physician",
+        experience: 12,
+        rating: 4.8,
+        location: "Delhi",
+        availability: "Mon-Fri, 9AM-5PM",
+        consultationFee: 1500,
+        languages: [
+            "English",
+            "Hindi"
+        ],
+        education: [
+            "MD, Harvard Medical School",
+            "Board Certified in Internal Medicine"
+        ],
+        imageUrl: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+        description: "Experienced general physician with expertise in preventive care and chronic disease management."
+    },
+    {
+        name: "Dr. Miran Chaudhary",
+        specialization: "Cardiologist",
+        experience: 15,
+        rating: 3.9,
+        location: "Mumbai",
+        availability: "Mon-Sat, 8AM-6PM",
+        consultationFee: 1800,
+        languages: [
+            "English",
+            "Hindi"
+        ],
+        education: [
+            "MD, Stanford University",
+            "Fellowship in Internal Medicine"
+        ],
+        imageUrl: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+        description: "Dedicated physician with a focus on patient-centered care and evidence-based medicine."
+    },
+    {
+        name: "Dr. Anjali Sharma",
+        specialization: "Dermatologist",
+        experience: 8,
+        rating: 2.7,
+        location: "Hyderabad",
+        availability: "Mon-Fri, 10AM-7PM",
+        consultationFee: 1200,
+        languages: [
+            "English",
+            "Hindi"
+        ],
+        education: [
+            "MD, University of Chicago",
+            "Residency in Internal Medicine"
+        ],
+        imageUrl: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+        description: "Compassionate physician specializing in preventive care and wellness."
+    },
+    {
+        name: "Dr. Ankit Singh",
+        specialization: "Pediatrician",
+        experience: 20,
+        rating: 4.9,
+        location: "Chennai",
+        availability: "Mon-Fri, 8AM-4PM",
+        consultationFee: 2000,
+        languages: [
+            "English"
+        ],
+        education: [
+            "MD, Johns Hopkins University",
+            "Board Certified in Internal Medicine"
+        ],
+        imageUrl: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+        description: "Senior physician with extensive experience in managing complex medical conditions."
+    },
+    {
+        name: "Dr. Priya Patel",
+        specialization: "General Physician",
+        experience: 10,
+        rating: 4.6,
+        location: "Kolkata",
+        availability: "Mon-Sat, 9AM-5PM",
+        consultationFee: 1400,
+        languages: [
+            "English",
+            "Hindi"
+        ],
+        education: [
+            "MD, University of Texas",
+            "Residency in Internal Medicine"
+        ],
+        imageUrl: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+        description: "Comprehensive care provider with expertise in preventive medicine and health promotion."
+    },
+    {
+        name: "Dr. Ravi Kumar",
+        specialization: "General Physician",
+        experience: 10,
+        rating: 3.6,
+        location: "Delhi",
+        availability: "Mon-Fri, 8AM-4PM",
+        consultationFee: 1400,
+        languages: [
+            "English",
+            "Hindi"
+        ],
+        education: [
+            "MD, University of Texas",
+            "Residency in Internal Medicine"
+        ],
+        imageUrl: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+        description: "Comprehensive care provider with expertise in preventive medicine and health promotion."
+    }
+];
 function Home() {
     _s();
     const [doctors, setDoctors] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [filteredDoctors, setFilteredDoctors] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [filters, setFilters] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
         specialization: '',
         location: '',
@@ -761,20 +877,74 @@ function Home() {
             fetchDoctors();
         }
     }["Home.useEffect"], [
+        filters.page,
+        filters.limit
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Home.useEffect": ()=>{
+            applyFilters();
+        }
+    }["Home.useEffect"], [
+        doctors,
         filters
     ]);
+    const applyFilters = ()=>{
+        let result = [
+            ...doctors
+        ];
+        // Apply specialization filter
+        if (filters.specialization) {
+            result = result.filter((doctor)=>doctor.specialization.toLowerCase() === filters.specialization.toLowerCase());
+        }
+        // Apply location filter
+        if (filters.location) {
+            result = result.filter((doctor)=>doctor.location.toLowerCase().includes(filters.location.toLowerCase()));
+        }
+        // Apply minimum rating filter
+        if (filters.minRating) {
+            result = result.filter((doctor)=>doctor.rating >= parseFloat(filters.minRating));
+        }
+        // Apply maximum fee filter
+        if (filters.maxFee) {
+            result = result.filter((doctor)=>doctor.consultationFee <= parseFloat(filters.maxFee));
+        }
+        // Apply sorting
+        result.sort((a, b)=>{
+            const order = filters.sortOrder === 'asc' ? 1 : -1;
+            if (filters.sortBy === 'rating') {
+                return (a.rating - b.rating) * order;
+            } else if (filters.sortBy === 'consultationFee') {
+                return (a.consultationFee - b.consultationFee) * order;
+            } else if (filters.sortBy === 'experience') {
+                return (a.experience - b.experience) * order;
+            }
+            return 0;
+        });
+        // Apply pagination
+        const startIndex = (filters.page - 1) * filters.limit;
+        const endIndex = startIndex + filters.limit;
+        const paginatedResult = result.slice(startIndex, endIndex);
+        setFilteredDoctors(paginatedResult);
+        setTotalPages(Math.ceil(result.length / filters.limit));
+    };
     const fetchDoctors = async ()=>{
         try {
             const queryParams = new URLSearchParams();
             Object.entries(filters).forEach(([key, value])=>{
                 if (value) queryParams.append(key, value.toString());
             });
-            const response = await fetch(`http://localhost:5000/api/doctors/list?${queryParams}`);
+            const response = await fetch(`https://doctor-finder-api.vercel.app/api/doctors/list?${queryParams}`);
+            if (!response.ok) {
+                throw new Error('Failed to fetch doctors');
+            }
             const data = await response.json();
             setDoctors(data.doctors);
             setTotalPages(data.totalPages);
         } catch (error) {
             console.error('Error fetching doctors:', error);
+            // Use fallback data on error
+            setDoctors(fallbackDoctors);
+            setTotalPages(Math.ceil(fallbackDoctors.length / filters.limit));
         }
     };
     const handleFilterChange = (newFilters)=>{
@@ -789,7 +959,7 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 60,
+                lineNumber: 194,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -804,18 +974,18 @@ function Home() {
                                 onFilterChange: handleFilterChange
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 64,
+                                lineNumber: 198,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 63,
+                            lineNumber: 197,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "md:col-span-3",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$DoctorList$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                doctors: doctors,
+                                doctors: filteredDoctors,
                                 currentPage: filters.page,
                                 totalPages: totalPages,
                                 onPageChange: (page)=>handleFilterChange({
@@ -823,33 +993,33 @@ function Home() {
                                     })
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 67,
+                                lineNumber: 201,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 66,
+                            lineNumber: 200,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 62,
+                    lineNumber: 196,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 61,
+                lineNumber: 195,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 59,
+        lineNumber: 193,
         columnNumber: 5
     }, this);
 }
-_s(Home, "DMDww1scZ1ckmNdUlkE9/q6U5d4=");
+_s(Home, "gecSOBtHfJmim+091msL4/8nNxA=");
 _c = Home;
 var _c;
 __turbopack_context__.k.register(_c, "Home");
