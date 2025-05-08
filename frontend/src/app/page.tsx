@@ -4,21 +4,7 @@ import { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import DoctorList from '@/components/DoctorList';
 import Filters from '@/components/Filters';
-
-interface Doctor {
-  _id?: string;
-  name: string;
-  specialization: string;
-  experience: number;
-  rating: number;
-  location: string;
-  availability: string;
-  consultationFee: number;
-  imageUrl?: string;
-  languages?: string[];
-  education?: string[];
-  description?: string;
-}
+import { Doctor } from '@/types/doctor';
 
 const fallbackDoctors: Doctor[] = [
   {
